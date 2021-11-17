@@ -11,13 +11,15 @@ function VideoPlayer() {
         myvideo: {
           width: '350px',
           [theme.breakpoints.down('xs')]: {
-            width: '100%',
+            width:"55vw",
+            height:"15vh",
           },
         },
         uservideo: {
           width: '750px',
           [theme.breakpoints.down('xs')]: {
-            width: '100%',
+            width:"85vw",
+            height:"55vh",
           },
         },
         gridContainer: {
