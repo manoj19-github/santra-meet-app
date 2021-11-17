@@ -32,6 +32,7 @@ const useStyles=makeStyles((theme)=>({
 }))
 
 function App() {
+  console.log("env",process.env.REACT_APP_SERVER_URL)
   const classes=useStyles()
 
 
