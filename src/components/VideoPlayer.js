@@ -11,15 +11,15 @@ function VideoPlayer() {
         myvideo: {
           width: '350px',
           [theme.breakpoints.down('xs')]: {
-            width:"55vw",
-            height:"15vh",
+            "width":"100%",
+            "height":"100%"
           },
         },
         uservideo: {
           width: '750px',
           [theme.breakpoints.down('xs')]: {
-            width:"85vw",
-            height:"55vh",
+            "width":"100%",
+            "height":"100%"
           },
         },
         gridContainer: {
@@ -50,9 +50,8 @@ function VideoPlayer() {
           border: '2px solid black',
           margin: '10px',
           [theme.breakpoints.down('xs')]: {
-            width:"55vw",
-            height:"15vh",
-
+            width:"85vw",
+            height:"25vh",
             marginLeft:"auto"
           },
         },
@@ -61,9 +60,10 @@ function VideoPlayer() {
           border: '2px solid black',
           margin: '10px',
           [theme.breakpoints.down('xs')]: {
+
+            margin:"2px auto",
             width:"85vw",
             height:"55vh",
-            margin:"2px auto"
           },
         },
     }));
