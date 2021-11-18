@@ -90,6 +90,7 @@ function VideoPlayer() {
                 playsInline
                 muted
                 ref={myVideo}
+                style={{width:"100%",height:"100%"}}
 
                 autoPlay
                 className={classes.myvideo}
@@ -121,6 +122,7 @@ function VideoPlayer() {
                   ref={userVideo}
                   autoPlay
                   className={classes.uservideo}
+                  style={{width:"100%",height:"100%"}}
 
                 />
                 </Grid>
